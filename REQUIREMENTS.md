@@ -1,0 +1,2 @@
+Please impleement a 3D virtual playground for a six year old boy.  Please include a 1960s style single story house, with a den, bedrooms, kitchen, and dining room.  Outside have a white picket fence with a dog playing in the yard. Allow the child to navigate through the virtual world.
+Please implement this program as a single HTML file that can be installed as a PWA application on an Apple iPad.
