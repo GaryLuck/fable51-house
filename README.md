@@ -6,7 +6,7 @@ Everything lives in **`index.html`** — a single self-contained file (Three.js 
 
 ## Play it
 
-Open `index.html` from any web server (or GitHub Pages). Keyboard: **WASD / arrows** to walk, **drag** to look, **space** to jump. Touch: **drag on the left** to walk, **drag on the right** to look, **tap the dog** to make him bark, **⬆︎ button** to jump.
+Open `index.html` from any web server (or GitHub Pages). Keyboard: **W/S or ↑/↓** walk, **←/→** turn, **A/D** side-step, **drag** to look, **space** to jump. Touch: **drag on the left** to walk, **drag on the right** to look, **tap the dog** to make him bark, **⬆︎ button** to jump.
 
 ## Install on an iPad
 
