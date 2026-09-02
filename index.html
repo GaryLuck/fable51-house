@@ -773,7 +773,8 @@ function updatePlayer(dt) {
   let mx = input.mx, mz = input.mz;
   const k = input.keys;
   if (k.KeyW || k.ArrowUp) mz += 1; if (k.KeyS || k.ArrowDown) mz -= 1;
-  if (k.KeyA || k.ArrowLeft) mx -= 1; if (k.KeyD || k.ArrowRight) mx += 1;
+  if (k.KeyA) mx -= 1; if (k.KeyD) mx += 1;                 // A/D side-step
+  if (k.ArrowLeft) player.yaw += 2.2 * dt; if (k.ArrowRight) player.yaw -= 2.2 * dt;   // arrows turn
   const len = Math.hypot(mx, mz); if (len > 1) { mx /= len; mz /= len; }
   const speed = 3.6;
   const fx = -Math.sin(player.yaw), fz = -Math.cos(player.yaw), rx = Math.cos(player.yaw), rz = -Math.sin(player.yaw);
